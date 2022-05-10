@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.App .myCV {
+  width: 50%;
+  margin: 15px auto;
+  border: 1px solid burlywood;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.App .myCV .myCV-title {
+  
+}
+
+.App .myCV .myCV-content {
+  text-align: left;
+}
+
+.App .myCV .myCV-content .item {
+
+}
+
+.App .myCV .myCV-content .item .item-title{
+
+}
+
+.App .myCV .myCV-content .item.item-1 .item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.App .myCV .myCV-content .item.item-1 .item-list {
+  width: 50%;
+}
+
+.App .myCV .myCV-content .item .item-content .item-list{
+
+}
+
+.App .myCV .myCV-content .item .item-img {
+  width: 25%;
+}
+
+
+@media all and (max-width: 768px) {
+  .App {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .App .myCV {
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .App .myCV .myCV-content .item.item-1 .item-content {
+    flex-direction: column-reverse;
+  }
+}
