@@ -40,13 +40,13 @@
 .App .myCV {
   width: 50%;
   margin: 15px auto;
-  border: 1px solid burlywood;
+  border: 1px solid #009688;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .App .myCV .myCV-title {
-  
+  color: #009688;
 }
 
 .App .myCV .myCV-content {
@@ -58,7 +58,7 @@
 }
 
 .App .myCV .myCV-content .item .item-title{
-
+  color: #009688;
 }
 
 .App .myCV .myCV-content .item.item-1 .item-content {
